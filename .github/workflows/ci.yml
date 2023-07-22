@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - singleton
+      - master
   pull_request:
     branches:
-      - singleton
+      - master
 
 env:
   CARGO_INCREMENTAL: 0
